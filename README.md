@@ -18,6 +18,7 @@ This is a simple blog application built with Laravel. It includes user authentic
     cd laravel_blog
 
 **2. Install dependencies**
+
 Composer dependencies
 
     composer install
@@ -27,6 +28,7 @@ Node.js dependencies
     npm install
 
 **3. Configure environment variables**
+
 Copy the .env.example file to .env and set your environment variables.
 
     cp .env.example .env
@@ -45,16 +47,19 @@ Edit the .env file to match your database configuration:
     php artisan key:generate
   
 **5. Run migrations**
+
 Run the database migrations to set up your database schema.
 
     php artisan migrate
 
 **6. Build assets**
+
 Build the frontend assets using Vite.
 
     npm run dev
 
 **7. Start the development server**
+
 Start the Laravel development server.
 
     php artisan serve
